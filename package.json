@@ -1,0 +1,30 @@
+{
+  "name": "dx25",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "start:prod": "pm2 start index.js --name dx25-project",
+    "stop:prod": "pm2 stop dx25-project"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaHeonchan/DX25.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaHeonchan/DX25/issues"
+  },
+  "homepage": "https://github.com/HaHeonchan/DX25#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "pm2": "^5.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
